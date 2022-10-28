@@ -1,0 +1,18 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("TSUKIWARE", "BloodTheme")
+    -- MAIN
+    local Main = Window:NewTab("PETSIMX")
+    local MainSection = Main:NewSection("PETSIMX SCRIPTS")
+
+
+    MainSection:NewButton("PetSimX script", "Latest version", function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/zopias04/script1/main/scrip1"))();
+    end)
+
+    local Main = Window:NewTab("CMDS")
+    local MainSection1 = Main:NewSection("CMD COMMANDS")
+
+
+    MainSection1:NewButton("cmd commands", "All cmd commands", function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/zopias04/poesratoifdgs/main/fullyskiddded"))();
+    end)
